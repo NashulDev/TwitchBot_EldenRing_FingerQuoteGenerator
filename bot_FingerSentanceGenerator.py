@@ -14,9 +14,9 @@ seed()
 
 bot = commands.Bot(
 	# set up the bot : https://twitchtokengenerator.com
-	token="oauth:" + conf.CONF_BOT_TWITCH["token"],
+	token="oauth:" + conf.CONF_BOT_TWITCH["access_token"],
+	client_secret=conf.CONF_BOT_TWITCH["refresh_token"],
 	client_id=conf.CONF_BOT_TWITCH["client_id"],
-	client_secret=conf.CONF_BOT_TWITCH["client_secret"],
 	nick=conf.CONF_BOT_TWITCH["nick"],
 	prefix=conf.CONF_BOT_TWITCH["prefix"],
 	initial_channels=[conf.CONF_BOT_TWITCH["initial_channels"]]
