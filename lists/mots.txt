@@ -1,0 +1,394 @@
+# Ennemis
+ennemi
+ennemi faible
+ennemi fort
+monstre
+dragon
+boss
+sentinelle
+groupe
+meute
+leurre
+non-mort
+soldat
+chevalier
+cavalier
+archer
+tireur d'élite
+mage
+artillerie
+monarque
+seigneur
+semi-humain
+étranger
+géant
+cheval
+chien
+loup
+rat
+bête
+oiseau
+rapace
+raptor
+serpent
+crabe
+crevette
+poulpe
+insecte
+scarabée
+limace
+spectre
+squelette
+monstruosité
+créature de mauvais augure
+
+# Gens
+Sans-éclat
+guerrier
+épéiste
+chevalier
+samurai
+sorcier
+prêtre
+sage
+marchand
+enseignant
+maître
+ami
+amant
+vieille femme
+vieillard
+ange
+crésus
+misérable
+bonne personne
+personne malfaisante
+gros tas
+maigrichon
+personne aimable
+personne pathétique
+personne étrange
+personne agile
+personne lente
+invisible
+être ineffable
+colosse
+pécheur
+voleur
+menteur
+ignoble
+traître
+paire
+trio
+noble
+aristocrate
+héros
+champion
+monarque
+seigneur
+dieu
+
+# Choses
+objet
+objet clé
+objet précieux
+quelque chose
+quelque chose d'incroyable
+coffre
+cadavre
+cercueil
+piège
+arme
+bouclier
+arc
+projectile
+armure
+talisman
+compétence
+sorcellerie
+incantation
+carte
+matériau
+fleur
+herbe
+arbre
+fruit
+graine
+champignon
+larme
+cristal
+papillon
+insecte
+excrément
+grâce
+porte
+clé
+échelle
+levier
+ascenseur
+source spirituelle
+pierre de téléportation
+astrolable de pierre
+télescope aquilin
+message
+tache de sang
+Arbre-Monde
+Cercle d'Elden
+
+# Tactique de combat
+combat rapproché
+combat à distance
+combat à cheval
+appâter la cible
+élimination coup par coup
+les affronter tous en même temps
+se précipiter dans la mêlée
+furtivité
+mimétisme
+confusion
+poursuite
+fuite
+invocation
+tourner autour
+saut
+traversée rapide
+bref répit
+
+# Actions 
+attaque
+attaque sautée
+attaque en course
+coup critique
+saisir à deux mains
+blocage
+parade
+contre-attaque
+sorcellerie
+incantation
+compétence
+invocation
+lancé
+soin
+course
+roulade
+pas en arrière
+saut
+accroupissement
+verouillage de cible
+fabrication d'objet
+faire un signe
+
+# Situations
+matin
+midi
+soir
+nuit
+ciel bleu
+temps couvert
+pluie
+orage
+brume
+neige
+patrouille
+procession
+foule
+attaque-surprise
+embuscade
+attaque en tenaille
+réduire en bouillie
+combat
+renforts
+rituel
+explosion
+en hauteur
+position défensive
+escalade possible
+endroit franchissable
+endroit lumineux
+endroit sombre
+zone dégagée
+zone étroite
+cachette
+endroit pour tirer
+endroit pour reconnaissance
+sécurité
+danger
+vue imprenable
+détour
+passage dérobé
+passage secret
+raccourci
+cul-de-sac
+détourner le regard
+ignoré
+à court d'endurance
+
+# Lieux
+grande route
+point de contrôle
+pont
+château
+fort
+ville
+ruines
+église
+tour
+campement
+maison
+cimetière
+caveau souterrain
+tunnel
+grotte
+geôle éternelle
+grand arbre
+cellier
+surface
+sous-sol
+forêt
+rivière
+lac
+tourbière
+montagne
+vallée
+falaise
+front de mer
+nid
+trou
+
+# Directions 
+est
+ouest
+sud
+nord
+devant
+derrière
+gauche
+droite
+centre
+haut
+bas
+bord
+
+# Anatomie
+tête
+estomac
+dos
+bras
+jambes
+postérieura
+queue
+coeur
+doigts
+
+# Affinités
+physique
+ordinaire
+contondant
+tranchant
+perçant
+feu
+foudre
+magie
+sacré
+poison
+toxique
+putréfaction écarlate
+saignement
+congélation
+sommeil
+démence
+malemort
+
+
+# Concepts 
+vie
+mort
+lumière
+ténèbres
+étoiles
+feu
+ordre
+chaos
+joie
+colère
+souffrance
+tristesse
+confort
+bonheur
+infortune
+chance
+malchance
+espoir
+désespoir
+victoire
+défaite
+recherche
+foi
+abondance
+putréfaction
+loyauté
+injustice
+secret
+opportunité
+péril
+indice
+amitié
+amour
+bravoure
+vigueur
+résilience
+confiance
+distrait
+exposé
+introspection
+regret
+abandon
+futilité
+à la limite
+trahison
+revanche
+destruction
+témérité
+calme
+vigilance
+tranquillité
+bruit
+larmes
+sommeil
+profondeurs
+mensonge
+peur
+sacrifice
+ruine
+
+# Locutions
+bonne chance
+regardez bien
+écoutez bien
+réfléchissez bien
+bien joué
+j'ai réussi !
+j'ai échoué...
+par ici !
+pas par-là !
+oubliez ça !
+allez-y !
+je n'en peux plus...
+ne pense pas
+tellement seul...
+encore ici...
+ce n'est que le début
+restez calme
+continuez comme ça
+faites demi-tour
+laissez tomber
+ne lâchez rien
+aidez-moi...
+je n'y crois pas...
+trop haut
+je veux rentrer chez moi...
+c'est comme un rêve...
+déjà vu quelque part...
+magnifique...
+tu n'as pas le droit
+êtes-vous prêt ?
