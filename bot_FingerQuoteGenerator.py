@@ -85,15 +85,15 @@ def speak(text="Texte par défaut"):
 	return mp3_fp
 
 
-@bot.command(name='doigt')	# The bot will be called with a concatenation of bot.prefix (usually '!') and 'name' (here 'doigt'), 
+@bot.command(name=conf.commandDoigt)	# The bot will be called with a concatenation of bot.prefix (usually '!') and 'name' (here 'doigt'), 
 							# so the command here is "!doigt"
 async def bot_doigt(ctx, remaining_time=conf.remaining_time):	
 	current_time = time.time()
-	if conf.old_time is None or current_time - conf.old_time >= conf.DELAI:
+	if conf.old_time is None or current_time - conf.old_time >= conf.delay_between_commands:
 		await ctx.send(sentance_tts())
 		conf.old_time = time.time()
 	else:
-		await ctx.send("Les Deux Doigts rechargent leur pouvoir... (" + str(conf.DELAI - (current_time - conf.old_time)).split('.')[0] +" secondes restantes)")
+		await ctx.send("Les Deux Doigts rechargent leur pouvoir... (" + str(conf.delay_between_commands - (current_time - conf.old_time)).split('.')[0] +" secondes restantes)")
 
 def sentance_tts():
 	mixer.init()
