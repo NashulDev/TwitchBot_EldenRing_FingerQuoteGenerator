@@ -11,9 +11,9 @@ import conf
 
 file_path = os.getcwd()
 seed()
+old_time = 0
 
 bot = commands.Bot(
-	# set up the bot : https://twitchtokengenerator.com
 	token="oauth:" + conf.CONF_BOT_TWITCH["access_token"],
 	client_secret=conf.CONF_BOT_TWITCH["refresh_token"],
 	client_id=conf.CONF_BOT_TWITCH["client_id"],
@@ -59,7 +59,6 @@ def generate_random_quote():
 		for line_conj in lines_conj:
 			tab_line_conj.append(line_conj.strip())
 
-	# conjonction_bool = 1
 	while(conjonction_bool >= 0):
 
 		conjonction_bool = conjonction_bool - 1
@@ -75,7 +74,7 @@ def generate_random_quote():
 		index=randint(0, len(tab_line_conj) - 1)
 		chosen_conj = tab_line_conj[index]
 
-	print("chosen_quote = " + chosen_quote)
+	print("Phrase générée : " + chosen_quote)
 	return chosen_quote
 
 
@@ -86,31 +85,24 @@ def speak(text="Texte par défaut"):
 	return mp3_fp
 
 
-@bot.event
-async def event_ready():
-	'Called once when the bot goes online.'
-	print(f"{bot['nick']} is online!")
-	ws = bot._ws  # this is only needed to send messages within event_ready
-	await ws.send_privmsg(os.environ['CHANNEL'], f"/me has landed!")
+@bot.command(name='doigt')	# The bot will be called with a concatenation of bot.prefix (usually '!') and 'name' (here 'doigt'), 
+							# so the command here is "!doigt"
+async def bot_doigt(ctx, remaining_time=conf.remaining_time):	
+	current_time = time.time()
+	if conf.old_time is None or current_time - conf.old_time >= conf.DELAI:
+		await ctx.send(sentance_tts())
+		conf.old_time = time.time()
+	else:
+		await ctx.send("Les Deux Doigts rechargent leur pouvoir... (" + str(conf.DELAI - (current_time - conf.old_time)).split('.')[0] +" secondes restantes)")
 
-
-@bot.event
-async def event_message(ctx):
-	'Runs every time a message is sent in chat.'
-	# make sure the bot ignores itself and the streamer
-	if ctx.author.name.lower() == bot['nick'].lower():
-		return
-
-
-@bot.command(name='doigt')
-async def test(ctx):
+def sentance_tts():
 	mixer.init()
 	text=generate_random_quote()
 	sound = speak(text)
 	sound.seek(0)
 	mixer.music.load(sound, "mp3")
 	mixer.music.play()
-	await ctx.send(text)
+	return text
 
 if __name__ == "__main__":
 	bot.run()
