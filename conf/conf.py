@@ -8,6 +8,6 @@ CONF_BOT_TWITCH = {
 }
 
 old_time = None
-DELAI = 30				# Seconds number delay between 2 commands Nombre de secondes de délai entre chaque commande
+DELAI = 30	# Seconds number delay between 2 commands Nombre de secondes de délai entre chaque commande
 remaining_time = True 	# The remaining_time variable will activate (True) or deactivate (False) 
-						# the response from the Bot for the remaining time between 2 commands
+# the response from the Bot for the DELAI between 2 commands

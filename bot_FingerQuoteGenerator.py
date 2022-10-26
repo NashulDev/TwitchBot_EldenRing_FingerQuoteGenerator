@@ -7,7 +7,7 @@ import io
 from twitchio.ext import commands
 from random import seed
 from random import randint
-import conf
+from conf import conf
 
 file_path = os.getcwd()
 seed()
@@ -38,8 +38,8 @@ def generate_random_quote():
 	tab_line_quotes = []
 	tab_line_words = []
 	tab_line_conj = []
-	list_quotes = "lists/doigts.txt"
-	list_words = "lists/mots.txt"
+	list_quotes = "lists/quotes.txt"
+	list_words = "lists/words.txt"
 	list_conjonctions = "lists/conjonctions.txt"
 
 	with io.open(list_quotes,  mode='r', encoding='utf-8') as f_quotes:
