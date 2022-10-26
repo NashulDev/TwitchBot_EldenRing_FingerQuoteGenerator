@@ -1,6 +1,8 @@
-# FRANCAIS - TwitchBot_EldenRing_FingerQuoteGenerator
+# FR - TwitchBot_EldenRing_FingerQuoteGenerator
 
 Un bot (répondant à des commandes d'un Tchat Twitch) qui va générer des citations aléatoires (issues de la fonctionnalité d'écriture de message d'Elden Ring) et les prononcer à voix haute.
+
+Si vous souhaitez me remercier, hésitez pas à venir me faire un coucou en stream : https://twitch.tv/nashul :)
 
 ## Installation (Windows)
 
@@ -45,7 +47,7 @@ python.exe .\bot_FingerSentanceGenerator.py
 ```
 Vous pouvez tester en écrivant "!doigt" dans votre tchat.
 
-# ENGLISH - TwitchBot_EldenRing_FingerQuoteGenerator
+# EN - TwitchBot_EldenRing_FingerQuoteGenerator
 
 A bot (which will respond to Twitch Tchat commands) which will generate a random sentance (from the "Messages" functionality of the "Elden Ring" game), and prononce it with Text to Speech.
 
