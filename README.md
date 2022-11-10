@@ -24,7 +24,7 @@ CONF_BOT_TWITCH = {
 	"access_token" : "dqdjj8g411htd3", # Copy the ACCESS TOKEN from https://twitchtokengenerator.com/
 	"refresh_token": "b7dnazdiondaoi987dazdzahduiazhdaumv", # Copy the REFRESH TOKEN from https://twitchtokengenerator.com/
 	"client_id": "dus787h98hjg7jbcvxbvcxv897", # Copy the CLIENT ID from https://twitchtokengenerator.com/
-	"nick": "MegaBot", # Name of the bot (variable not used in the scripts)
+	"nick": "MegaBot", # Name of the bot 
 	"prefix": "!", # Prefix used for tchat command. Usually "!", but can be anything else
 	"initial_channels" : "Nashul" # Name of the channel in which the bot will respond (your channel name)
 }
